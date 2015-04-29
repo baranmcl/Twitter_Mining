@@ -1,5 +1,5 @@
 import tweepy
-#make sure you have tweepy module installed
+#make sure you have tweepy installed
 
 #enter these for the code to work
 consumer_key =
@@ -13,7 +13,7 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-#prints most recent 10 tweets on your timeline
-public_tweets = api.home_timeline()
-for tweet in public_tweets:
+#print @RZA’s most recent 10 tweets
+public_timeline = api.user_timeline(29663668)
+for tweet in public_timeline:
     print tweet.text
