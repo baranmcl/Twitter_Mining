@@ -1,7 +1,7 @@
 import tweepy
 #make sure you have tweepy module installed
 
-#enter these for the code to work
+#enter these for the code to work. Don't share your key and secret publicly!
 consumer_key =
 consumer_secret =
 access_token =
